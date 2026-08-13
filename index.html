@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tasky - Mobile App</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="app">
+    <header class="header">
+      <div>
+        <p class="greeting">Xin chào 👋</p>
+        <h1>Tasky</h1>
+      </div>
+      <button id="themeBtn" class="icon-btn" aria-label="Đổi giao diện">🌙</button>
+    </header>
+
+    <section class="card summary">
+      <div>
+        <span class="label">Công việc hôm nay</span>
+        <strong id="taskCount">0</strong>
+      </div>
+      <div class="progress">
+        <div id="progressBar"></div>
+      </div>
+      <small id="progressText">0% hoàn thành</small>
+    </section>
+
+    <section class="add-task">
+      <input id="taskInput" type="text" placeholder="Nhập công việc..." maxlength="80">
+      <button id="addBtn">+</button>
+    </section>
+
+    <section>
+      <div class="section-title">
+        <h2>Danh sách công việc</h2>
+        <button id="clearBtn" class="clear-btn">Xóa đã xong</button>
+      </div>
+      <ul id="taskList"></ul>
+      <p id="emptyMessage" class="empty">Chưa có công việc nào.</p>
+    </section>
+
+    <nav class="bottom-nav">
+      <button class="active">🏠<span>Trang chủ</span></button>
+      <button>📋<span>Công việc</span></button>
+      <button>👤<span>Cá nhân</span></button>
+    </nav>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
