@@ -1,10 +1,9 @@
 # Tasky - Mobile App đơn giản bằng HTML
-
 Đây là một mobile web app quản lý công việc đơn giản.
 
 ## Công nghệ
 - HTML5
-- CSS3
+- CSS
 - JavaScript
 - LocalStorage
 
@@ -20,7 +19,6 @@
 ## Cách chạy
 
 Cách đơn giản nhất:
-
 1. Mở thư mục dự án bằng VS Code.
 2. Mở `index.html`.
 3. Dùng extension **Live Server** trong VS Code.
